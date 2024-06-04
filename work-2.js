@@ -20,5 +20,6 @@ class WorkTwo {
   }
 }
 
-let test = new WorkTwo ('ㅇㅇ',2);
+let test = new WorkTwo (1,2);
 console.log(test);
+console.log(test._a + test._b);
